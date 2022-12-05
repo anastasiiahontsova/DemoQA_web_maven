@@ -4,11 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
-public class LoginTests extends BaseTests{
+public class LoginTests extends BaseTests {
     @Test
-    public void loginTestPositive(){
+    public void loginTestPositive() {
         String currentUserName = "Testusername";
-        String currentPwd = "Test123456789";
+        String currentPwd = "Test123456789!";
 
         Assert.assertEquals(
                 new LoginPage(driver)

@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class  BasePage {
+public abstract class BasePage {
     WebDriver driver;
 
-    public BasePage(WebDriver driver){
+    public BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -31,6 +31,12 @@ public abstract class  BasePage {
     protected WebElement waitForElementToBeClickable(WebElement webElement) {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(webElement));
+        return webElement;
+    }
+
+    protected WebElement waitForElementToBePresent(WebElement webElement) {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.visibilityOf(webElement));
         return webElement;
     }
 
