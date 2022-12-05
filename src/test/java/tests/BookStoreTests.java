@@ -67,7 +67,8 @@ public class BookStoreTests extends BaseTests {
         String firstBookInProfile = new ProfilePage(driver).getBookName(0);
         Assert.assertEquals(firstBookInProfile, expectedBookName, "Expected book name: " + expectedBookName);
         // HW #3: extend the TC: remove the item from your collection
-        //new ProfilePage(driver).deleteBookFromProfilePage();
+        new ProfilePage(driver).deleteBookFromProfilePage();
+        //Assert.assertEquals
 
 
        // HW #4: add me to the contributors in your git repo (akutafina)

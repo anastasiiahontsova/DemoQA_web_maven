@@ -22,7 +22,7 @@ public class ProfilePage extends BasePage {
     @FindBy(xpath = "//span[@title = 'Delete']")
     WebElement deleteBookBtn;
 
-    @FindBy(id = "closeSmallModal-ok")
+    @FindBy(xpath = "//*[contains(@class, 'modal-footer')]//*[text() = 'OK']")
     WebElement acceptDeletionOfBook;
 
 
@@ -44,7 +44,6 @@ public class ProfilePage extends BasePage {
     }
 
     public ProfilePage deleteBookFromProfilePage() {
-        waitForElementToBeClickable(deleteBookBtn);
         deleteBookBtn.click();
         acceptDeletionOfBook.click();
         closeTheAlert();
