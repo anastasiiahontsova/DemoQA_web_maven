@@ -8,8 +8,7 @@ public class MenuSideBar extends BasePage {
     @FindBy(xpath = "//li[contains(@class,'btn btn-light')]/*[text()='Book Store']")
     WebElement bookStoreMenu;
 
-    @FindBy(xpath = "//li[contains(@class,'btn btn-light active')]/*[text()='Profile']")
-    WebElement profilePageBtn;
+
 
     @FindBy(xpath = "//div[@class='rt-tr-group']")
     WebElement tableOfUserBooks;
@@ -25,10 +24,6 @@ public class MenuSideBar extends BasePage {
         return new BookStorePage(driver);
     }
 
-    public ProfilePage clickOnProfilePage() {
-        scrollToElementAndClick(profilePageBtn);
-        //profilePageBtn.click(); - won't work coz is out the viewport
-        return new ProfilePage(driver);
-    }
+
 
 }

@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,5 +35,12 @@ public class BookStorePage extends BasePage {
                 .get()
                 .click();
         return new BookItemPage(driver);
+    }
+
+    public BookStorePage closeTheAlert() {
+        waitForAlert();
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+        return this;
     }
 }

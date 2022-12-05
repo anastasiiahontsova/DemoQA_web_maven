@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+
 import java.util.List;
 
 public class ProfilePage extends BasePage {
@@ -21,7 +22,7 @@ public class ProfilePage extends BasePage {
     @FindBy(xpath = "//span[@title = 'Delete']")
     WebElement deleteBookBtn;
 
-    @FindBy(xpath = "closeSmallModal-ok")
+    @FindBy(id = "closeSmallModal-ok")
     WebElement acceptDeletionOfBook;
 
 
@@ -43,8 +44,8 @@ public class ProfilePage extends BasePage {
     }
 
     public ProfilePage deleteBookFromProfilePage() {
+        waitForElementToBeClickable(deleteBookBtn);
         deleteBookBtn.click();
-        //Alert alert = driver.switchTo().alert();
         acceptDeletionOfBook.click();
         closeTheAlert();
         return this;

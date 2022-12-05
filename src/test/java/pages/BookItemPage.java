@@ -10,6 +10,9 @@ public class BookItemPage extends BasePage {
     @FindBy(id = "addNewRecordButton")
     WebElement addToCollectionBtn;
 
+    @FindBy(xpath = "//span[contains(text(), 'Profile')]")
+    WebElement profilePageBtn;
+
     public BookItemPage(WebDriver driver) {
         super(driver);
     }
@@ -24,5 +27,11 @@ public class BookItemPage extends BasePage {
         Alert alert = driver.switchTo().alert();
         alert.accept();
         return this;
+    }
+
+    public ProfilePage clickOnProfilePage() {
+        scrollToElementAndClick(profilePageBtn);
+        //profilePageBtn.click();
+        return new ProfilePage(driver);
     }
 }

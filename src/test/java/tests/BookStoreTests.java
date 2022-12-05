@@ -3,10 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.BookStorePage;
-import pages.LoginPage;
-import pages.MenuSideBar;
-import pages.ProfilePage;
+import pages.*;
 
 public class BookStoreTests extends BaseTests {
 
@@ -64,14 +61,17 @@ public class BookStoreTests extends BaseTests {
                 .addToCollection();
                 //.closeTheAlert();
         // HW #2: extend the TC: go to Profile; check that out of all the book there is one that you've added
-        new MenuSideBar(driver).
+        new BookItemPage(driver).
                 clickOnProfilePage();
 
         String firstBookInProfile = new ProfilePage(driver).getBookName(0);
         Assert.assertEquals(firstBookInProfile, expectedBookName, "Expected book name: " + expectedBookName);
         // HW #3: extend the TC: remove the item from your collection
-        new ProfilePage(driver).deleteBookFromProfilePage();
-        // HW #4: add me to the contributors in your git repo (akutafina)
-    }
+        //new ProfilePage(driver).deleteBookFromProfilePage();
+
+
+       // HW #4: add me to the contributors in your git repo (akutafina)
+
+}
 
 }

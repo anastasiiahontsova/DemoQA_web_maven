@@ -44,4 +44,5 @@ public abstract class BasePage {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.alertIsPresent());
     }
+
 }

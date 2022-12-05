@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35916739-46ea-4b66-881d-6960e92972c5" name="Changes" comment="https://github.com/anastasiiahontsova/DemoQA_maven.git" />
+    <list default="true" id="35916739-46ea-4b66-881d-6960e92972c5" name="Changes" comment="https://github.com/anastasiiahontsova/DemoQA_maven.git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BookItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BookItemPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BookStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuSideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuSideBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +49,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.loginTestPositive">
+  <component name="RunManager" selected="TestNG.BookStoreTests.addToCollectionPositive">
     <configuration name="BookStoreTests.addToCollectionPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
@@ -134,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.loginTestPositive" />
         <item itemvalue="TestNG.BookStoreTests.addToCollectionPositive" />
+        <item itemvalue="TestNG.LoginTests.loginTestPositive" />
         <item itemvalue="TestNG.BookStoreTests.searchFormTestPositive" />
         <item itemvalue="TestNG.BookStoreTests.searchFormJavaScriptAllFourBooksFoundTestPositive" />
         <item itemvalue="TestNG.BookStoreTests.searchFormAllBooksFoundTestPositive" />
