@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35916739-46ea-4b66-881d-6960e92972c5" name="Changes" comment="https://github.com/anastasiiahontsova/DemoQA_maven.git">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BrowserWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewTabPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewWindowMessagePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewWindowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SelectMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BrowserWindowsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ButtonsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelectMenuTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuSideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuSideBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" afterDir="false" />
     </list>
@@ -43,8 +55,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookStoreTests.addToCollectionPositive">
+  <component name="RunManager" selected="TestNG.BrowserWindowsTests.openNewWindowMessageTestPositive">
     <configuration name="BookStoreTests.addToCollectionPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
@@ -63,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormAllBooksFoundTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserWindowsTests.openNewTabTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +87,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormAllBooksFoundTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewTabTestPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormJavaScriptAllFourBooksFoundTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserWindowsTests.openNewWindowMessageTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormJavaScriptAllFourBooksFoundTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewWindowMessageTestPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserWindowsTests.openNewWindowTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewWindowTestPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.loginTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMenuTests.selectMultiselectDropdownPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="loginTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelectMenuTests" />
+      <option name="METHOD_NAME" value="selectMultiselectDropdownPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewWindowMessageTestPositive" />
+        <item itemvalue="TestNG.SelectMenuTests.selectMultiselectDropdownPositive" />
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewWindowTestPositive" />
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewTabTestPositive" />
         <item itemvalue="TestNG.BookStoreTests.addToCollectionPositive" />
-        <item itemvalue="TestNG.LoginTests.loginTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormJavaScriptAllFourBooksFoundTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormAllBooksFoundTestPositive" />
       </list>
     </recent_temporary>
   </component>

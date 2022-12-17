@@ -59,7 +59,7 @@ public class BookStoreTests extends BaseTests {
         new BookStorePage(driver)
                 .clickOnBookName(expectedBookName)
                 .addToCollection();
-                //.closeTheAlert();
+        //.closeTheAlert();
         // HW #2: extend the TC: go to Profile; check that out of all the book there is one that you've added
         new BookItemPage(driver).
                 clickOnProfilePage();
@@ -71,8 +71,8 @@ public class BookStoreTests extends BaseTests {
         //Assert.assertEquals
 
 
-       // HW #4: add me to the contributors in your git repo (akutafina)
+        // HW #4: add me to the contributors in your git repo (akutafina)
 
-}
+    }
 
 }
