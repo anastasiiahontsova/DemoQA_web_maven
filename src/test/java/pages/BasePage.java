@@ -15,6 +15,7 @@ public abstract class BasePage {
         PageFactory.initElements(driver, this);
     }
 
+
     protected void type(WebElement fieldWebElement, String text) {
         waitForElementToBeClickable(fieldWebElement);
         fieldWebElement.click();
