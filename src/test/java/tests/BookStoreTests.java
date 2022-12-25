@@ -71,7 +71,7 @@ public class BookStoreTests extends BaseTests {
         //Assert.assertEquals
 
 
-        // HW #4: add me to the contributors in your git repo (akutafina)
+
 
     }
 
