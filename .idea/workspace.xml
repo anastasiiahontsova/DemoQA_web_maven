@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35916739-46ea-4b66-881d-6960e92972c5" name="Changes" comment="https://github.com/anastasiiahontsova/DemoQA_maven.git">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACExpectedConditionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACFrame1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACFrame2Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACFrame3Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACFrame4Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ACFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ACExpectedConditionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ACFramesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BookStoreTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +52,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookStoreTests.addToCollectionPositive">
-    <configuration name="BookStoreTests.addToCollectionPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ACFramesTests">
+    <configuration name="ACFramesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +66,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="addToCollectionPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.ACFramesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACFramesTests.clickOnBtn4Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ACFramesTests" />
+      <option name="METHOD_NAME" value="clickOnBtn4Test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormAllBooksFoundTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ACFramesTests.frame1ButtonClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +101,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormAllBooksFoundTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.ACFramesTests" />
+      <option name="METHOD_NAME" value="frame1ButtonClickTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormJavaScriptAllFourBooksFoundTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserWindowsTests.openNewWindowMessageTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +119,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormJavaScriptAllFourBooksFoundTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewWindowMessageTestPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStoreTests.searchFormTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMenuTests.selectMultiselectDropdownPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_maven" />
       <extension name="coverage">
         <pattern>
@@ -108,26 +137,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BookStoreTests" />
-      <option name="METHOD_NAME" value="searchFormTestPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.loginTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="loginTestPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelectMenuTests" />
+      <option name="METHOD_NAME" value="selectMultiselectDropdownPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BookStoreTests.addToCollectionPositive" />
-        <item itemvalue="TestNG.LoginTests.loginTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormJavaScriptAllFourBooksFoundTestPositive" />
-        <item itemvalue="TestNG.BookStoreTests.searchFormAllBooksFoundTestPositive" />
+        <item itemvalue="TestNG.ACFramesTests" />
+        <item itemvalue="TestNG.ACFramesTests.frame1ButtonClickTest" />
+        <item itemvalue="TestNG.ACFramesTests.clickOnBtn4Test" />
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewWindowMessageTestPositive" />
+        <item itemvalue="TestNG.SelectMenuTests.selectMultiselectDropdownPositive" />
       </list>
     </recent_temporary>
   </component>

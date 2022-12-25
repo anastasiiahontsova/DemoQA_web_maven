@@ -9,7 +9,6 @@ public class MenuSideBar extends BasePage {
     WebElement bookStoreMenu;
 
 
-
     @FindBy(xpath = "//div[@class='rt-tr-group']")
     WebElement tableOfUserBooks;
 
@@ -23,7 +22,6 @@ public class MenuSideBar extends BasePage {
         // bookStoreMenu.click(); - won't work coz is out the viewport
         return new BookStorePage(driver);
     }
-
 
 
 }

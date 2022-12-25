@@ -64,7 +64,7 @@ public abstract class BasePage {
 
     protected void scrollToElementAndClick(WebElement webElement, int px) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0," + px + ")");
+        js.executeScript("window.scrollBy(0,"+ px + ")");
         waitForElementToBeClickable(webElement);
         webElement.click();
 
