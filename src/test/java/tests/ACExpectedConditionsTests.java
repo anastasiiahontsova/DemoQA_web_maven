@@ -32,6 +32,12 @@ public class ACExpectedConditionsTests extends BaseTests{
 
     @Test
     public void cancelPromtTest(){
-        //todo: HW
+        String actualPromptHandledBadgeText =
+                new ACExpectedConditionsPage(driver)
+                        .cancelPromptAlert()
+                        .getPromtHandledBageText();
+        Assert.assertEquals(actualPromptHandledBadgeText, "",
+                "The Prompt handling text appeared: " + actualPromptHandledBadgeText);
     }
+
 }
