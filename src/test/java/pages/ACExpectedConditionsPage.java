@@ -40,6 +40,13 @@ public class ACExpectedConditionsPage extends BasePage{
         return this;
     }
 
+    public ACExpectedConditionsPage cancelPromptAlert() {
+        showPromptBtn.click();
+        waitForAlert(5);
+        driver.switchTo().alert().dismiss();
+        return this;
+    }
+
     @FindBy(id = "confirm_ok_badge")
     WebElement promptAcceptedHandledBadge;
     public String getPromtHandledBageText() {
